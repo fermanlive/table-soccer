@@ -1,0 +1,69 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(fonts/EASPORTS15.ttf);
+}
+body{
+    font-family: myFirstFont;
+    margin: 0;
+    background-color: #ffffff;
+
+}
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Tables-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Title-table{
+    font-size: 80px;
+    font-weight: bold;
+    color: #38003c;
+}
+.Container-subtitles{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    cursor: pointer;
+    border-bottom: 1px solid;
+}
+
+.Subtitles-table-active{
+    border-bottom: 3px solid;
+    font-weight: bold;
+    border-bottom-color:#e90052;
+    color: #38003c;
+}
+.Subtitles-table{
+    border-bottom: 3px solid;
+    font-weight: bold;
+    border-bottom-color:#ffffff;
+    color: #38003c; 
+}
+.Subtitles-table:hover  {
+    border-bottom-color:#00ff85;
+}
+.jornada-list{
+    list-style: none;
+    
+}
+.jornada-list li{
+    margin-bottom: 5%;
+}
+.jornada-item{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+.jornada-apuesta{
+    background-color: #38003c;
+    color: #ffffff;
+}
